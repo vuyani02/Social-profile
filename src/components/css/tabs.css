@@ -1,0 +1,30 @@
+.tab-header{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.tab-btn{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(252, 251, 251);
+    padding: 7px 100px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+/* .tab-btn:hover{
+    border-bottom-color: rgb(245, 245, 245);
+} */
+
+.icon-lebel{
+    display: flex;
+    align-items: center;
+}
+
+.icon-tab{
+    margin-right: 5px;
+}
+
+.border{
+    border-bottom-color: rgb(233, 233, 233);
+}

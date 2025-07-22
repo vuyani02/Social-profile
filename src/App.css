@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    font-family: serif;
+}
+
+.cover-img {
+    height: 150px;
+    width: 100%;
+}
+
+.profile {
+    margin-left: 50px;
+    position: relative;
+}
+
+.camera {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #1A1C1E;
+    margin: 2px;
+    cursor: pointer;
+    padding-top: 5px;
+    /* background: transparent; */
+}
+
+.camera:hover {
+    background-color: #3b4044;
+}
+
+.input {
+    overflow: hidden;
+    height: 0;
+    width: 0;
+}
+
+.cam {
+    cursor: pointer;
+}
+
+.details {
+    margin-top: 40px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 120px 600px;
+    gap: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.profile-cam {
+    left: 95px;
+    top: 17.5rem;
+}
+
+.name {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.subscribers {
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+.sub-btn {
+    margin-top: 10px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.sub-btn:hover {
+    background-color: rgb(173, 0, 0);
+}
+
+.bell {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: 90.11px;
+}
