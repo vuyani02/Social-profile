@@ -5,7 +5,7 @@ const Content = () => {
     return (
         <section className='cards-container'>
             {
-                Array.from({length: 6}).map((c, i) => (
+                Array.from({length: 6}).map((_c, i) => (
                     <Card key={i}/>
                 ))
             }

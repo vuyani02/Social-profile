@@ -3,8 +3,8 @@ import { useState } from "react"
 
 const Profile = () => {
 
-    const [coverImg, setCoverImg] = useState<string>('/tabs-img/Document - Google Chrome 2025_05_31 17_09_29.png')
-    const [profileImg, setProfileImg] = useState<string>('/tabs-img/Document - Google Chrome 2025_05_31 18_38_27.png')
+    const [coverImg, setCoverImg] = useState<string>('tabs-img/Document - Google Chrome 2025_05_31 17_09_29.png')
+    const [profileImg, setProfileImg] = useState<string>('tabs-img/Document - Google Chrome 2025_05_31 18_38_27.png')
     const [Subscribed, setSubscribe] = useState<boolean>(false)
     const [color, setColor] = useState<string>('red')
 
